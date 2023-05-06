@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    display: inline;
+    background-color: black;
+}
+
+li,a,button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    margin-top: -1.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    padding: 0px 0%;
+    background-color: #24252a;
+}
+
+.wrapper{
+    display:inline-block;
+    box-sizing  : border-box;    
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+.lab{
+    margin-left: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.menu-main li{
+    display: inline-block;
+    padding: 0 5rem;
+}
+
+.menu-main li a{
+    transition: all 0.3s ease 0s;
+}
+
+.menu-main li a:hover{
+    color: #0088a9;
+}
+
+.home-content{
+    background-color: #edf0f1;
+    margin: 0 auto 0 auto;
+    width: 75%;
+    padding: 1rem;
+}
+
+.index-intro{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.index-categories{
+    text-align: center;
+    position: relative;
+    background-color: #edf0f1;
+}
+
+.index-categories div{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 1rem;
+}
+
+.list-div div{
+    align-items: center;
+    margin: 0 1rem;
+    height: 11rem;
+    background-color: #A9A9A9;
+}
+/* button{
+    margin-left: 15rem;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+} */
+
+.signup-form{
+    margin: -1.1rem auto;
+    background-color: #edf0f1;
+    width: 75%;
+}
+
+.signup-form h2{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.signup-form-form{
+    padding: 0 40px;
+    box-sizing: border-box;
+    background-color: #edf0f1;
+    text-align: center;
+    padding: 1rem
+}
+
+form .signup-form-form{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.signup-form-form input{
+    align-items: center;
+    width: 50%;
+    margin: 0.5rem 0;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.signup-form-form button{
+    display: block;
+    position: relative;
+    margin: 1rem auto;
+    width: 12%;
+    background: #26917d;
+    border-radius: 18px;
+    padding: 0.5rem;
+    font-size: 1.125rem;
+    cursor: pointer;
+    outline: none;
+}
